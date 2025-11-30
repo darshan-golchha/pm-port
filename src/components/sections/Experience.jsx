@@ -52,7 +52,7 @@ const Experience = () => {
                   <>
                     <button
                       onClick={() => toggleExpand(exp.id)}
-                      className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium ml-14 mb-3"
+                      className="text-white dark:text-blue-300 hover:text-white dark:hover:text-blue-200 hover:underline text-sm font-medium ml-14 mb-3 transition-colors"
                     >
                       {expandedId === exp.id ? 'Show Less' : 'Show Key Highlights'}
                     </button>

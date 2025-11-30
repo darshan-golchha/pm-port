@@ -51,7 +51,7 @@ const Projects = () => {
                 <>
                   <button
                     onClick={() => toggleExpand(project.id)}
-                    className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium mb-3"
+                    className="text-white dark:text-blue-300 hover:white dark:hover:text-blue-200 hover:underline text-sm font-medium mb-3 transition-colors"
                   >
                     {expandedId === project.id ? 'Show Less' : 'Read More'}
                   </button>
