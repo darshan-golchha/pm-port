@@ -51,7 +51,7 @@ const Education = () => {
 
             {/* Computer Science Courses */}
             {edu.computerScienceCourses && (
-              <div className="mb-4 ml-14 bg-slate-100 dark:bg-slate-800 rounded-lg">
+              <div className="mb-4 bg-slate-100 dark:bg-slate-800 rounded-lg">
                 <button
                   onClick={() => toggleSection(`cs-${edu.id}`)}
                   className="flex items-center gap-2 text-blue-600 dark:text-blue-400 font-semibold mb-3 hover:text-blue-700 dark:hover:text-blue-300 transition-colors bg-slate-100 dark:bg-slate-800"
@@ -85,7 +85,7 @@ const Education = () => {
 
             {/* Mathematics Courses */}
             {edu.mathematicsCourses && (
-              <div className="ml-14 bg-purple-100 dark:bg-purple-900/30 rounded-lg">
+              <div className="bg-purple-100 dark:bg-purple-900/30 rounded-lg">
                 <button
                   onClick={() => toggleSection(`math-${edu.id}`)}
                   className="flex items-center gap text-purple-600 dark:text-purple-400 font-semibold mb-3 hover:text-purple-700 dark:hover:text-purple-300 transition-colors bg-purple-100 dark:bg-purple-900/30"
